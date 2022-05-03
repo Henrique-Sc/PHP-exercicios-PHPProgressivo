@@ -11,3 +11,19 @@ Ex 02: Faça um script que peça um número e então mostre a mensagem O número
 Ex 03: Faça um script que peça dois números e imprima a soma.
 
 Ex 04: Faça um script que peça 3 notas de um aluno e mostra sua média.
+
+Ex 05:
+
+Ex 06:
+
+Ex 07:
+
+Ex 08:
+
+Ex 09:
+
+Ex 10:
+
+Ex 11:
+
+Ex 12:
