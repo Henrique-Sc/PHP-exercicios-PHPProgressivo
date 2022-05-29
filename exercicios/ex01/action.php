@@ -19,7 +19,7 @@
         $area = number_format((M_PI * $raio ** 2), 2, ',', '.');
 
         echo "<p><b>Raio</b>: $raio", " cm</p>";
-        echo "<p><b>Comprimento</b>: $comprimento", ' cm</p>';
+        echo "<p><b>Perímetro</b>: $comprimento", ' cm</p>';
         echo "<p><b>Área</b>: $area", ' cm</p>'
     ?>
 </body>
