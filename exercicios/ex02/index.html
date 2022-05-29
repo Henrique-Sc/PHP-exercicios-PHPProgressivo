@@ -11,10 +11,9 @@
 <body>
     <h1>Exercício 02 - Analisando o número informado</h1>
 
-    <p>Digite um número qualquer:</p>
-
     <form action="action.php" method="post" autocomplete="off">
-        <input type="number" name="num" placeholder="Digite aqui..." step="1">
+        <label for="num">Digite um número qualquer:</label><br>
+        <input type="number" name="num" id="num" placeholder="Digite aqui..." step="1">
 
         <input type="submit" value="Enviar">
     </form>
