@@ -22,7 +22,7 @@
             $num = filter_input(INPUT_POST, 'num');
 
             # Mostrar o resultado
-            echo "<p>• O número digitado foi <b>$num</b>!</p>";
+            echo "<p>• O número digitado foi <b>$num</b>!</p> \n";
             
         ?>
     </div>
