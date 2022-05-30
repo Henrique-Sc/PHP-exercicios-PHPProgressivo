@@ -12,22 +12,25 @@
     <h1>Exercício 01 - perímetro e área de um círculo</h1>
 
     <p>Escreva um script que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo.</p>
+
     <hr>
 
     <h2>Resultado: </h2>
     <div class="result">
-
-    </div>
     <?php
-        $raio = filter_input(INPUT_POST, 'raio');
-        
-        $comprimento = number_format((2 * M_PI * $raio), 2, ',', '.');
+            # Valor digitado pelo usuário
+            $raio = filter_input(INPUT_POST, 'raio');
+            
+            # Calculos / Perímetro e área
+            $peri = number_format((2 * M_PI * $raio), 2, ',', '.');
+            $area = number_format((M_PI * $raio ** 2), 2, ',', '.');
 
-        $area = number_format((M_PI * $raio ** 2), 2, ',', '.');
+            # Resultado
+            echo "\t <p>• <b>Raio</b>: $raio cm</p>";
+            echo "<p>• <b>Perímetro</b>: $peri cm</p>";
+            echo "<p>• <b>Área</b>: $area cm</p> \n";
+        ?>
+    </div>
 
-        echo "<p><b>Raio</b>: $raio", " cm</p>";
-        echo "<p><b>Perímetro</b>: $comprimento", ' cm</p>';
-        echo "<p><b>Área</b>: $area", ' cm</p>'
-    ?>
 </body>
 </html>
