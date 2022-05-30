@@ -22,7 +22,7 @@
 
             # Mostrar o resultado
             echo "<p class='result'>• O número digitado foi <b>$num</b>!</p>";
-
+            
         ?>
     </div>
 
