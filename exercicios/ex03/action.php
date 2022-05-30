@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
-    <h1>Exercício 03 - soma entre dois números</h1>
+    <h1>Exercício 03 - Soma entre dois números</h1>
     
     <p>Faça um script que peça dois números e imprima a soma.</p>
+    
     <hr>
     
     <h2>Resultado: </h2>
@@ -25,7 +26,7 @@
             $soma = $num1 + $num2;
 
             # Mostrar o resultado
-            echo "<p class='result'>• A soma entre <u>$num1</u> e <u>$num2</u> é <b>$soma</b>!";
+            echo "<p>• A soma entre <u>$num1</u> e <u>$num2</u> é <b>$soma</b>!";
 
         ?>
     </div>
