@@ -13,7 +13,7 @@
 
     <?php
        $num = filter_input(INPUT_POST, 'num');
-       echo "<p>O número digitado foi <mark>$num</mark>!</p>";
+       echo "<p>O número digitado foi <b>$num</b>!</p>";
     ?>
 </body>
 </html>
