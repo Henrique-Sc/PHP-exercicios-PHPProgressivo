@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 03</title>
+    <title>Exercício 04</title>
 
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
-    <h1>Exercício 03 - Soma entre dois números</h1>
+    <h1>Exercício 04 - Média de notas</h1>
     
-    <p>Faça um script que peça dois números e imprima a soma.</p>
+    <p>Faça um script que peça 3 notas de um aluno e mostra sua média.</p>
 
     <hr>
 
     <form action="action.php" method="post" autocomplete="off">
-        <input type="number" name="num1" placeholder="1º número" step="1">
-        <input type="number" name="num2" placeholder="2º número">
+        <!--Nome do aluno-->
+        <input type="text" name="nome" placeholder="Nome do aluno" required>
+
+        <!--Notas do aluno-->
+        <input type="number" name="nota1" placeholder="1ª nota" min="0" step="0.01" required>
+        <input type="number" name="nota2" placeholder="2ª nota" min="0" step="0.01" required>
+        <input type="number" name="nota3" placeholder="3ª nota" min="0" step="0.01" required>
         
+        <!--Enviar-->
         <input type="submit" value="Enviar" class="btnEnviar">
     </form>
 </body>
