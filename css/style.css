@@ -20,8 +20,9 @@ th, td {
 input {
     padding: 5px;
     margin-top: 6px;
+    display: block;
 }
 
-.btnEnviar {
-    display: block;
+.result {
+    margin-left: 5px;
 }
