@@ -12,6 +12,7 @@
     <h1>Exercício 02 - Analisando o número informado</h1>
     
     <p>Faça um script que peça um número e então mostre a mensagem O número informado foi &lt;número&gt;.</p>
+    
     <hr>
 
     <h2>Resultado: </h2>
@@ -21,7 +22,7 @@
             $num = filter_input(INPUT_POST, 'num');
 
             # Mostrar o resultado
-            echo "<p class='result'>• O número digitado foi <b>$num</b>!</p>";
+            echo "<p>• O número digitado foi <b>$num</b>!</p>";
             
         ?>
     </div>
