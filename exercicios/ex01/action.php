@@ -11,6 +11,13 @@
 <body>
     <h1>Exercício 01 - perímetro e área de um círculo</h1>
 
+    <p>Escreva um script que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo.</p>
+    <hr>
+
+    <h2>Resultado: </h2>
+    <div class="result">
+
+    </div>
     <?php
         $raio = filter_input(INPUT_POST, 'raio');
         
