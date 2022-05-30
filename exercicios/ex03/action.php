@@ -26,7 +26,7 @@
             $soma = $num1 + $num2;
 
             # Mostrar o resultado
-            echo "<p>• A soma entre <u>$num1</u> e <u>$num2</u> é <b>$soma</b>!";
+            echo "<p>• A soma entre <u>$num1</u> e <u>$num2</u> é <b>$soma</b>!</p> \n";
 
         ?>
     </div>
