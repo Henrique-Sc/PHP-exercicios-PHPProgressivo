@@ -11,10 +11,11 @@
 <body>
     <h1>Exercício 01 - perímetro e área de um círculo</h1>
 
-    <p>Digite o raio do círculo em <b>centímetros</b>: </p>
+    <p>Escreva um script que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo.</p>
 
     <form action="action.php" method="post" autocomplete="off">
-        <input type="number" name="raio" placeholder="Digite aqui..." step="0.1">
+        <label for="raio">Digite o raio do círculo em <b>centímetros</b>: </label><br>
+        <input type="number" name="raio" id="raio" step="0.1">
 
         <input type="submit" value="Enviar">
     </form>
