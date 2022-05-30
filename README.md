@@ -7,7 +7,7 @@ Fonte: https://www.phpprogressivo.net/2019/01/Exercicios-Basicos-PHP-Resolvidos.
 <ol>
     <li>Escreva um script que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo.</li>
     <br>
-    <li>Faça um script que peça um número e então mostre a mensagem O número informado foi <número>.</li>
+    <li>Faça um script que peça um número e então mostre a mensagem O número informado foi {número}.</li>
     <br>
     <li>Faça um script que peça dois números e imprima a soma.</li>
     <br>
